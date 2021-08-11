@@ -1,5 +1,8 @@
 import React from 'react';
 import '../styles/calculatorStyles.css';
+import Button from './Button';
+import calculate from '../logic/calculate';
+import operate from '../logic/operate';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -17,33 +20,33 @@ class Calculator extends React.Component {
         </div>
         <div className="buttonContainer">
           <div className="buttons">
-            <button className="button gray-button" type="button"> 0 </button>
-            <button className="button gray-button" type="button">+/- </button>
-            <button className="button gray-button" type="button">&#37; </button>
-            <button className="button orange-button" type="button">&divide;</button>
+            <Button buttonName="AC" />
+            <Button buttonName="+/-" />
+            <Button buttonName="&#37;" />
+            <Button buttonName="&divide;" classButton="button orange-button" />
           </div>
           <div className="buttons">
-            <button className="button gray-button" type="button">7  </button>
-            <button className="button gray-button" type="button">8 </button>
-            <button className="button gray-button" type="button">9   </button>
-            <button className="button orange-button" type="button">&#215; </button>
+            <Button buttonName="7" />
+            <Button buttonName="8" />
+            <Button buttonName="9" />
+            <Button buttonName="&#215;" classButton="button orange-button" />
           </div>
           <div className="buttons">
-            <button className="button gray-button" type="button">4  </button>
-            <button className="button gray-button" type="button">5 </button>
-            <button className="button gray-button" type="button">6   </button>
-            <button className="button orange-button" type="button"> - </button>
+            <Button buttonName="4" />
+            <Button buttonName="5" />
+            <Button buttonName="6" />
+            <Button buttonName="-" classButton="button orange-button" />
           </div>
           <div className="buttons">
-            <button className="button gray-button" type="button">1    </button>
-            <button className="button gray-button" type="button">2    </button>
-            <button className="button gray-button" type="button">3    </button>
-            <button className="button orange-button" type="button"> + </button>
+            <Button buttonName="1" />
+            <Button buttonName="2" />
+            <Button buttonName="3" />
+            <Button buttonName="+" classButton="button orange-button" />
           </div>
           <div className="buttons">
-            <button className="button gray-button zero-button" type="button"> 0  </button>
-            <button className="button gray-button" type="button">.   </button>
-            <button className="button orange-button" type="button"> = </button>
+            <Button buttonName="0" classButton="button gray-button zero-button" />
+            <Button buttonName="." />
+            <Button buttonName="=" classButton="button orange-button" />
           </div>
         </div>
       </div>
