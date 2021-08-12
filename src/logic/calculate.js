@@ -9,7 +9,7 @@ function isNumber(item) {
  * calculator data object.
  *
  * Calculator data object contains:
- *   total:s      the running total
+ *   total:s           the running total
  *   next:String       the next number to be operated on with the total
  *   operation:String  +, -, etc.
  */
@@ -29,9 +29,9 @@ export default function calculate(obj, buttonName) {
     // If there is an operation, update next
     if (obj.operation) {
       if (obj.next) {
-        return { next: obj.next + buttonName };
+        return { ...obj, next: obj.next + buttonName };
       }
-      return { next: buttonName };
+      return { ...obj, next: buttonName };
     }
     // If there is no operation, update next and clear the value
     if (obj.next) {
@@ -49,9 +49,9 @@ export default function calculate(obj, buttonName) {
   if (buttonName === '.') {
     if (obj.next) {
       if (obj.next.includes('.')) {
-        return {};
+        return { ...obj };
       }
-      return { next: `${obj.next}.` };
+      return { ...obj, next: `${obj.next}.` };
     }
     if (obj.operation) {
       return { next: '0.' };
