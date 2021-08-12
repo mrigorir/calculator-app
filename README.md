@@ -11,7 +11,7 @@
 
 - Use CSS to create the calculator layout.
 
-Use logic files to make basic operations.
+- Use logic files to make basic operations.
 ## Image Preview
 ![Screenshot Main Page](./src/img/capture.jpg)
 
