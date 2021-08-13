@@ -12,6 +12,9 @@
 - Use CSS to create the calculator layout.
 
 - Use logic files to make basic operations.
+
+- Use of React hooks on functional components.
+  
 ## Image Preview
 ![Screenshot Main Page](./src/img/capture.jpg)
 
