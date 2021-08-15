@@ -15,6 +15,8 @@
 ## Image Preview
 ![Screenshot Main Page](./src/img/capture.jpg)
 
+## ⭐⭐[Live Demo](https://elated-dubinsky-13972e.netlify.app/)⭐⭐
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
