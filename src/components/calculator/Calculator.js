@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import '../styles/calculatorStyles.css';
 import Button from './Button';
-import calculate from '../logic/calculate';
+import calculate from '../../logic/calculate';
 
 const Calculator = () => {
   const [calculateObj, setCalculateObj] = useState({});
@@ -21,7 +20,7 @@ const Calculator = () => {
   }
 
   return (
-    <div className="container">
+    <div className="calc-container">
       <div className="display">
         <span className="display-number">
           {display}
