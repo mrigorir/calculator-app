@@ -9,7 +9,7 @@
 
 - Use React framework.
 
-- Use CSS to create the calculator layout.
+- Use CSS to create the calculator layout and the website structure.
 
 - Use logic files to make basic operations.
 
@@ -18,7 +18,8 @@
 ## Image Preview
 ![Screenshot Main Page](./src/img/capture.jpg)
 
-## ⭐⭐[Live Demo](https://elated-dubinsky-13972e.netlify.app/)⭐⭐
+## ⭐⭐[Live Demo](https://hungry-colden-6b988e.netlify.app/)⭐⭐
+
 
 ## Getting Started
 

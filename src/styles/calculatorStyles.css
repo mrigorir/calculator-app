@@ -1,7 +1,7 @@
-.container {
-  margin: 200px auto;
+.calc-container {
   width: 500px;
   height: auto;
+  box-shadow: 5px 2px 7px #58585a;
 }
 
 .display {
@@ -45,4 +45,26 @@
 
 .zero-button {
   width: 250px;
+}
+
+.container {
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: wrap;
+  margin-top: 200px;
+}
+
+.calcTitle {
+  font-size: 3rem;
+  color: #313131;
+  background-color: #f5913e;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.calcTitle:hover {
+  transform: rotate(45deg);
+  transition: all ease-in-out 1s;
 }
