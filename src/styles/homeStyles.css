@@ -1,0 +1,26 @@
+.home-container {
+  margin: 80px auto;
+  width: 95%;
+}
+
+.homeTitle {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: bolder;
+}
+
+.homeText {
+  margin-top: 40px;
+  color: #58585a;
+  line-height: 160%;
+  letter-spacing: .2rem;
+  text-align: left;
+  border-image: linear-gradient(to top, rgb(206, 194, 194), rgba(240, 239, 239, 0)) 1;
+  border-width: 5px;
+  border-style: solid;
+  border-left: none;
+  border-top: none;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: rgb(243, 243, 243);
+}
