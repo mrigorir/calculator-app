@@ -18,6 +18,9 @@
 ## Image Preview
 ![Screenshot Main Page](./src/img/capture.jpg)
 
+## ⭐⭐[Live Demo](https://hungry-colden-6b988e.netlify.app/)⭐⭐
+
+
 ## Getting Started
 
 To get a local copy up and running follow these simple example steps:
