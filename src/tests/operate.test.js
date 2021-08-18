@@ -19,3 +19,20 @@ describe('substract tests', () => {
     expect(Number(operate(89, 1560, '-'))).not.toBe(4);
   });
 });
+
+describe('multiply tests', () => {
+  test('4 * 5 = 20', () => {
+    expect(Number(operate(4, 5, 'x'))).toBe(20);
+  });
+  test('3 * 4 != 56900', () => {
+    expect(Number(operate(3, 4, 'x'))).not.toBe(56900);
+  });
+});
+describe('division tests', () => {
+  test('24 / 3 = 8', () => {
+    expect(Number(operate(24, 3, '÷'))).toBe(8);
+  });
+  test('0 / 45 != 9', () => {
+    expect(Number(operate(0, 45, '÷'))).not.toBe(9);
+  });
+});
