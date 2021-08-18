@@ -104,7 +104,7 @@ describe('Makes a proper divition', () => {
 
     expect(Number(calcObj.total)).toBe(2);
   });
-  
+
   test('0 / 1600 = 0', () => {
     calcObj = calculate(calcObj, '0');
 
