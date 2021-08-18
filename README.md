@@ -14,6 +14,8 @@
 - Use logic files to make basic operations.
 
 - Use of React hooks on functional components.
+
+- Use react-test-library and snapshot to make tests.
   
 ## Image Preview
 ![Screenshot Main Page](./src/img/capture.jpg)
@@ -65,6 +67,9 @@ To make sure the linters' checks using Github Actions work properly, you should 
 - I recommend the use of VS code as a code editor, but you can use whatever you want.
 
 - Run in your terminal `npm start` OR `yarn start` to start React website.
+
+- To check the tests, run in the terminal `npm run test`.
+  
 ## Authors
 
 👤 **Marco Parra**
@@ -72,6 +77,13 @@ To make sure the linters' checks using Github Actions work properly, you should 
 - GitHub: [@mrigorir](https://github.com/mrigorir)
 - Twitter: [@marcoparra311](https://twitter.com/marcoparra311)
 - LinkedIn: [@marco-alonso-parra](https://www.linkedin.com/in/marco-alonso-parra/)
+
+👤 **Eri**
+
+- Github: [@errea](https://github.com/errea)
+- Twitter: [@Erreakay](https://github.com/errea)
+- Linkedin: [Eri Okereafor](https://www.linkedin.com/in/eri-ngozi-okereafor/)
+
 
 ## 🤝 Contributing
 
