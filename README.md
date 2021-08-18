@@ -66,6 +66,8 @@ To make sure the linters' checks using Github Actions work properly, you should 
 
 - I recommend the use of VS code as a code editor, but you can use whatever you want.
 
+- Run `npm install` after you clone the project.
+
 - Run in your terminal `npm start` OR `yarn start` to start React website.
 
 - To check the tests, run in the terminal `npm run test`.
